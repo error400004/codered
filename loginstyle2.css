@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+*{
+    color: white;
+    margin:0;
+    padding:0;
+    font-family: Ubuntu;
+}
+
+body {
+    background-color: #F4C2C2;
+
+    
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    background:transparent;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px black;
+}
+
+nav > section{
+    width: 8rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navbtn{
+    border: 2px solid #d43d72;
+    border-radius: 30px;
+    padding: 7px 50px 9px 17px;
+    margin: 13px -50px 0px 6px;
+    transition-duration: 0.3s;
+    background-color: 0px 0px 20px black;
+}
+
+.current{
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 7px 50px 9px 17px;
+    margin: 13px -50px 0px 6px;
+   
+    background-color:   pink;
+    color: pink;
+    box-shadow: 0 0 15px #08ceff;
+}
+
+
+.navbtn:hover{
+    background-color: #c2255c;
+    color: black;
+    box-shadow: 0 0 15px #c2255c;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+}
+
+footer{
+    position: absolute;
+    backdrop-filter: blur(5px);
+    bottom: 0;
+    padding-bottom: 20px;
+    margin: 20px 00px 0px 00px;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: 0 0 20px black;
+}
+
+.footsec{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footsec i {
+    color:#000;
+}
+.footsec a{
+    color: #800000;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.footsec a:hover{
+    text-shadow: 0 0 15px #c2255c;
+    transform: scale(1.3);
+    transition-duration: 0.3s;
+} 
+
+
+
+/* login Page */
+
+
+.login-section{
+    background-color: #ffdbdb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    margin-top:25pxx;
+    margin-bottom: 50px;
+    /* backdrop-filter: blur(4px); */
+    border: 2px solid #c2255c;
+    border-radius: 20px;
+    width: 30rem;
+    height: 33.5rem;
+}
+
+.form{
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+
+.form > input,textarea{
+    border: 0.5px #c2255c solid;
+    border-radius: 10px;
+    margin-left: 1rem;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    color: #c2255c;
+    background: transparent;
+}
+
+
+.formsubmit:hover{
+    background-color: #c23768;;
+    color: white;
+}
